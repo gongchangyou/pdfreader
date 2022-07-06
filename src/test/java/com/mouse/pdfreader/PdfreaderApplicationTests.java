@@ -61,7 +61,7 @@ class PdfreaderApplicationTests {
 
                     } else {
                         goodOffset = 1;
-                        System.out.println("海关编号 \t" + currentNo + "\t" + file.getName()+ "\t page " + i);
+                        System.out.println("海关编号 \t'" + currentNo + "\t" + file.getName()+ "\t page " + i);
                     }
                     lastNo = currentNo;
                 } else {
