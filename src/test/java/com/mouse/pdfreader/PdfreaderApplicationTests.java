@@ -21,7 +21,7 @@ class PdfreaderApplicationTests {
 
     @Test
     void listFile() {
-        String path = "/Users/gongchangyou/Downloads/haiguan/报关单";		//要遍历的路径
+        String path = "/Users/gongchangyou/Downloads/税单";		//要遍历的路径
         File file = new File(path);		//获取其file对象
         File[] fs = file.listFiles();	//遍历path下的文件和目录，放在File数组中
         for(File f:fs){					//遍历File[]数组
